@@ -1,0 +1,38 @@
+.title{
+	margin: 10px 0 30px;
+    font-size: 24px;
+    color: #8c8c8c;
+}
+.holder{
+	position: relative;
+    margin: 30px auto;
+    width: 600px;
+    text-align: center;
+}
+.bottom{
+	margin-top: 20px;
+}
+.countup{
+	border: 1px solid #efefef;
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+.cell{
+	padding: 5px 0;
+}
+.countdown{
+	border: 1px solid #efefef;
+	padding: 10px 0;
+}
+.count{
+	font-size: 18px;
+}
+.countText{
+	font-size: 14px;
+}
+.day, .hour, .min, .sec{
+	margin-right: 7px;
+}
+.btn{
+	width: 60px;
+}

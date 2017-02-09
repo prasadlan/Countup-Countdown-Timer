@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="clicktimer.css">
+	</head>
+	<body>
+		<div class="holder">
+			<div class="title">CLICK TIMER</div>
+			<div class="top">
+				<button type="button" id="timerStart">Start</button>
+				<input type="text" id="time" name="time" placeholder="seconds">
+			</div>
+			<div class="bottom">
+				<div class="countup">
+					<div class="cell">
+						<button type="button" class="btn" id="countUpStart" disabled=true>Start</button>
+						<button type="button" class="btn" id="countUpReset" disabled=true>Reset</button>
+					</div>
+					<div class="cell">
+						<span class="day">
+							<span class="count" id="countUpDay">00</span>
+							<span class="countText">d</span>
+						</span>
+						<span class="hour">
+							<span class="count" id="countUpHour">00</span>
+							<span class="countText">h</span>
+						</span>
+						<span class="min">
+							<span class="count" id="countUpMin">00</span>
+							<span class="countText">m</span>
+						</span>
+						<span class="sec">
+							<span class="count" id="countUpSec">00</span>
+							<span class="countText">s</span>
+						</span>
+					</div>
+				</div>
+				<div class="countdown">
+					<div class="cell">
+						<button type="button" class="btn" id="countDownStart" disabled=true>Start</button>
+						<button type="button" class="btn" id="countDownReset" disabled=true>Reset</button>
+					</div>
+					<div class="cell">
+						<span class="day">
+							<span class="count" id="countDownDay">00</span>
+							<span class="countText">d</span>
+						</span>
+						<span class="hour">
+							<span class="count" id="countDownHour">00</span>
+							<span class="countText">h</span>
+						</span>
+						<span class="min">
+							<span class="count" id="countDownMin">00</span>
+							<span class="countText">m</span>
+						</span>
+						<span class="sec">
+							<span class="count" id="countDownSec">00</span>
+							<span class="countText">s</span>
+						</span>
+					</div>
+				</div>
+			</div> 
+		</div>
+		<script src="clicktimer.js"></script>
+	</body>
+</html>
